@@ -14,10 +14,12 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     padding: 1%;
+    transition: all 500ms;
 }
 
-/* header secion which will feature a nav later on but for now an icon is displayed//////////////////////////////////////////////////////////////////////////////// */
- .header{
+/*------------ Header secion which will feature a nav later on but for now an icon is displayed-----------*/
+
+.header{
     border: 2px solid;
     border-color: black;
     max-width: 164px;
@@ -41,3 +43,4 @@ body{
 .heading:hover{
     color: white;
 }
+
