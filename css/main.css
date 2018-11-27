@@ -14,10 +14,17 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     padding: 1%;
+    transition: all 500ms;
 }
 
 /* header secion which will feature a nav later on but for now an icon is displayed//////////////////////////////////////////////////////////////////////////////// */
- .header{
+.container:hover,.heading:hover, div:hover > .nav > a{
+    background-color: black;
+    color: white;
+    transition: all 500ms;
+}
+
+.header{
     border: 2px solid;
     border-color: black;
     max-width: 164px;
@@ -41,3 +48,20 @@ body{
 .heading:hover{
     color: white;
 }
+/* styling for nav component/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.nav{
+    display: inline ;
+    float: right;
+    position: relative;
+    bottom: 160px;
+    transition: all 500ms;
+}
+
+.nav > a{
+    padding: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
