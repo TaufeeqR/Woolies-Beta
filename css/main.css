@@ -1,0 +1,43 @@
+/* general webpage layout////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+/* header secion which will feature a nav later on but for now an icon is displayed//////////////////////////////////////////////////////////////////////////////// */
+ .header{
+    border: 2px solid;
+    border-color: black;
+    max-width: 164px;
+    max-height: 164px;
+    transition: all 500ms;
+}
+
+.header:hover{
+    background-color: black;
+}
+
+.heading{
+    font-size: 100px;
+    font-family: 'Roboto';
+    position: relative;
+    bottom: 45px;
+    left: 35px;
+    transition: all 500ms;
+}
+
+.heading:hover{
+    color: white;
+}
