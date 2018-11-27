@@ -4,7 +4,7 @@
 
 ```
 Creating a new and improved Woolworths homepage 
-keeping the Woolies them but adding a modern twist. 
+keeping the Woolies theme but adding a modern twist. 
 ```
 
 ## Contributors
