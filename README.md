@@ -25,7 +25,7 @@ Josh Arendse ---- https://github.com/JoshArendse
 
 ## Change Logs
 
-###26 Nov 2018
+### 26 Nov 2018
 ```
 Added folder structure
 Created W logo using HTML & CSS
