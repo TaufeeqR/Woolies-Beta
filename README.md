@@ -33,6 +33,10 @@ Updated Readme
 Removed Navbar
 ```
 
+### 29 Nov 2018
+```
+Added banner image to header
+```
 
 
 
