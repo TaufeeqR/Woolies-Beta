@@ -30,5 +30,9 @@ Josh Arendse ---- https://github.com/JoshArendse
 Added folder structure
 Created W logo using HTML & CSS
 Updated Readme
+Removed Navbar
 ```
+
+
+
 

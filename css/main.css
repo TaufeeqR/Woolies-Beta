@@ -1,4 +1,4 @@
-/* general webpage layout////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*------------------------- General webpage layout---------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 html{
@@ -10,14 +10,14 @@ body{
     padding: 1%;
 }
 
-.container{
+.header-container{
     max-width: 1600px;
     margin: 0 auto;
     padding: 1%;
     transition: all 500ms;
 }
 
-/*------------ Header secion which will feature a nav later on but for now an icon is displayed-----------*/
+/*-------------------------- Header secion ------------------*/
 
 .header{
     border: 2px solid;
@@ -44,3 +44,10 @@ body{
     color: white;
 }
 
+.banner-1 {
+    position: relative;
+    left: 190px;
+    bottom: 168px;
+    width: 1050px;
+    height: 168px;
+}
