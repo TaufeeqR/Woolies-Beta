@@ -15,6 +15,7 @@ body{
     margin: 0 auto;
     padding: 1%;
     transition: all 500ms;
+    height: 216px;
 }
 
 /*---------- Header secion --------------*/
@@ -52,7 +53,7 @@ body{
     height: 168px;
 }
 
-/*-------- Navbar dropdown ---------*/
+/*-------- Navbar dropdown content ---------*/
 
 .nav-box{
     position: relative;
@@ -131,4 +132,82 @@ body{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+}
+
+/* ---------------- Styling for grid contaier ------------- */
+
+.grid-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    transition: all 500ms;
+    padding: 1%;
+}
+
+/* grid general layout */
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1240px;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-gap: 16px;
+}
+/* grid items placed with corresponding position */
+.grid-items1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.open{
+    width:1240px;
+}
+
+
+.grid-items4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.woman{
+    width: 400px;
+    height: 500px;
+}
+
+
+.grid-items5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.men{
+    width: 400px;
+    height: 500px;
+}
+
+
+.grid-items6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.kids{
+    width: 400px;
+    height: 500px;
+}
+
+
+.grid-items7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-column-end: 5;
+}
+.tp{
+    width: 1240px;
 }
