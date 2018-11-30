@@ -38,5 +38,11 @@ Removed Navbar
 Added banner image to header
 ```
 
+### 30 Nov 2018
+```
+Added links to navbar
+Added search bar to navbar
+```
+
 
 
